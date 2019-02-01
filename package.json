@@ -1,15 +1,18 @@
 {
-  "name": "defender-game",
+  "name": "dev-dependencies",
   "version": "1.0.0",
-  "description": "\"Browser based game\"",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src -d dist"
   },
-  "keywords": [
-    "game"
-  ],
-  "author": "septoon",
-  "license": "ISC"
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "http-server": "^0.11.1"
+  }
 }
